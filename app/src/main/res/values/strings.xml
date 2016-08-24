@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KHOT</string>
+    <string name="ethnic">Ethnic</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="fast_casual">Fast Casual</string>
+    <string name="fine_dining">Fine Dining</string>
+    <string name="newly_added">Newly Added!</string>
+    <string name="hot_right_now">Hot Right Now!</string>
+    <string name="hint_search">Hint search</string>
+    <string name="rosewood_info">Rosewood Kitchen + Enoteca \nCuisine: Italian\nOpen Hours: Mon-Fri: 7:30 am - 10:00 pm\nSat-Sun: 10:00 am - 9:00 pm\nAddress: Natsagdorj Street, Ulaanbaatar, Mongolia\n
+    Phone: 9402 0561\n</string>
+    <string name="call">Call</string>
+    <string name="rosewood_location">Get directions</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">153349095092731</string>
+    <string name="fb_login_protocol_scheme">fb153349095092731</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/button1"
+        android:icon="@mipmap/ic_launcher"
+        android:title=" Нүүр"
+        />
+
+    <item
+        android:id="@+id/button2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="  Төрлөөр \n     хайх"/>
+
+    <item
+        android:id="@+id/button3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="   Санал\n   бичих"/>
+
+    <item
+        android:id="@+id/button4"
+        android:icon="@mipmap/ic_launcher"
+        android:title="  Купон "/>
+    <item
+        android:id="@+id/button5"
+        android:icon="@mipmap/ic_launcher"
+        android:title="  Миний \n  хуудас" />
+</menu>

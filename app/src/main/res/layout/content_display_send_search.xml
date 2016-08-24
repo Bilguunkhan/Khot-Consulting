@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/bck_color"
+    tools:context="com.example.bilguun.trial.DisplaySendSearch"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_height="400dp"
+        android:layout_width="match_parent"
+        >
+    </android.support.v4.view.ViewPager>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="RoseWood Kitchen"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColorHighlight="#000"
+        android:textColor="#00a6ff" />
+    <Button
+        android:id="@+id/call"
+        android:text="Call Rosewood"
+        android:textStyle="bold"
+        android:layout_marginTop="902dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck_color" />
+    <Button
+        android:id="@+id/get_direction"
+        android:text="Get Directions"
+        android:textStyle="bold"
+        android:layout_marginTop="962dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck_color" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    <ListView
+        android:layout_height="700dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/tryout"
+        android:text="Hello"
+        android:textStyle="bold"
+        android:layout_marginTop="372dp" />
+    </LinearLayout>
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/myCoordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="0sp" />
+
+        </LinearLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
+</ScrollView>

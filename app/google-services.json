@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "347058490264",
+    "firebase_url": "https://khot-gsl.firebaseio.com",
+    "project_id": "khot-gsl",
+    "storage_bucket": "khot-gsl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347058490264:android:e0027a024c51754d",
+        "android_client_info": {
+          "package_name": "com.example.bilguun.trial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347058490264-49eic8ebqsotfjv1fuch1idfa0ku12d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAihjg-atHb-GE9hJPXlxbIigNdYvUecUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

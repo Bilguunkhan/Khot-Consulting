@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00a6ff"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Таны хүсэлт бүртгэгдлээ. Бид тантай 24 цагийн дотор эргэж холбогдох болно."
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        style="bold"
+        android:background="#ffffff" />
+
+</LinearLayout>
